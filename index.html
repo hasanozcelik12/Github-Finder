@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/css/bootstrap.min.css" integrity="sha512-t4GWSVZO1eC8BM339Xd7Uphw5s17a86tIZIj8qRxhnKub6WoyhnrxeCIMeAqBPgdZGlCcG2PrZjMc+Wr78+5Xg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <!-- Üst Kısım -->
+ <header class="navbar navbar-dark bg-dark mb-3">
+    <div class="container">
+        <a href="/" class="navbar-brand">Github Bulucu</a>
+        <button id="theme-btn" class="btn btn-light">Koyu Mod</button>
+    </div>
+ </header>
+ <!-- Form Alanı -->
+ <div class="container">
+    <!-- uyarılar js den buraya gönderilecek -->
+    <div id="alert" >
+<div class="alert alert-success"></div>
+    </div>
+    <div class="border p-3">
+        <h1>Github Kullanıcı Adını ara</h1>
+        <p>Kullanıcı Bilgilerine erişmek için bir kullanıcı adı giriniz</p>
+        <div class="d-flex gap-3">
+            <input id ="search-input" class="form-control" type="text">
+            <button id="search-btn" class="btn btn-primary btn-lg">Ara</button>
+        </div>
+    </div>
+ </div>
+
+ <!-- Kullanıcı Bilgileri Alanı -->
+ <div class="container " id="profile">
+    
+ </div>
+
+ <!-- Repolar Alanı -->
+<div class="container p-3" id="repos">
+    <div class="border row p-3 mb-4">
+        <div class="col-md-6 ">
+            <a href="">Github Bulucu</a>
+        </div>
+        <div class="col-md-6">
+            <span class="badge bg-primary">Yıldız:1</span>
+            <span class="badge bg-secondary">İzleyenler:1</span>
+            <span class="badge bg-success">Fork'lar:1</span>
+        </div>
+    </div>
+</div>
+
+
+
+
+
+    <script src="main.js" type="module"></script>
+</body>
+</html>
